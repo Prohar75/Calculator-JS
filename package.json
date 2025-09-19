@@ -1,8 +1,9 @@
 {
   "name": "calculator-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple calculator app",
   "main": "index.js",
+  "homepage": "",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open"
