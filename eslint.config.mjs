@@ -20,7 +20,6 @@ export default defineConfig([
     },
     extends: ['js/recommended'],
     rules: {
-      // Примеры полезных правил
       'no-console': 'warn',
       'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
       'prettier/prettier': 'error',
