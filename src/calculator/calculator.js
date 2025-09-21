@@ -53,10 +53,16 @@ function handleOperator(value, display, register) {
     display.value = result;
     calculatorState.clearAll();
   } else {
-    calculatorState.operator = value;
-    calculatorState.A = register.value;
-    register.value = '';
-    display.value += value;
+    if(calculatorState.operator === null){
+      calculatorState.operator = value;
+      calculatorState.A = register.value;
+      register.value = '';
+      display.value += value;
+    }else{
+      calculatorState.operator = value;
+      display.value = display.value.slice(0, display.value.length - 1);
+      display.value += value;
+    }
   }
 }
 
