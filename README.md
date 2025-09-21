@@ -18,7 +18,7 @@
 Calculator-JS/
 ├── src/                           # base code dirrectory
 │   ├── calculator/                # calculator logic and UI code dirrectory
-│   │   ├── calculatoor.js         # calculator file that implements logic
+│   │   ├── calculator.js          # calculator file that implements logic
 │   │   ├── renderCalculator.js    # calculator UI file
 │   │   └── setupThemeManager.js   # theme manager file
 │   ├── index.html                 # HTML file for the application
