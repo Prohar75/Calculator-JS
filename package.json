@@ -6,7 +6,8 @@
   "homepage": "",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "check": "npx prettier --check src"
   },
   "keywords": [],
   "author": "",

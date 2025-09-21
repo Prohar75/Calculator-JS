@@ -1,3 +1,6 @@
 import './style.css';
-import { calculator } from './calculator/calculator.js';
-calculator();
+import { renderCalculator } from './calculator/renderCalculator.js';
+import { setupThemeManager} from "./calculator/setupThemeManager.js"
+
+renderCalculator();
+setupThemeManager();
