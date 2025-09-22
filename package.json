@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open",
-    "check": "npx prettier --check src"
+    "check": "npx prettier --check src",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",

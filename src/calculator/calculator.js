@@ -98,7 +98,7 @@ function handleTopFunction(value, display, register) {
 
 function handleNumberInput(value, display, register) {
   if (value === '.') {
-    if(!register.value.includes('.') && !display.value.includes('.')){
+    if(!register.value.includes('.') && register.value != ''){
       register.value += value;
       display.value += value;
     }
